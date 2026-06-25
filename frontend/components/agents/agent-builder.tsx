@@ -3,7 +3,7 @@
 import * as React from "react"
 import {
   Code2,
-  Github,
+  GitBranch,
   FileText,
   Globe,
   Bell,
@@ -43,7 +43,7 @@ const PROVIDERS: { id: ModelProvider; label: string; desc: string; models: strin
 
 const TOOLS: { id: string; name: string; desc: string; icon: LucideIcon }[] = [
   { id: "code", name: "Code Execution", desc: "Run code in an isolated sandbox", icon: Code2 },
-  { id: "github", name: "GitHub Reader", desc: "Read repos, issues and PRs", icon: Github },
+  { id: "github", name: "GitHub Reader", desc: "Read repos, issues and PRs", icon: GitBranch },
   { id: "file", name: "File Writer", desc: "Create and edit files", icon: FileText },
   { id: "web", name: "Web Search", desc: "Query the web with citations", icon: Globe },
   { id: "slack", name: "Slack Notify", desc: "Post messages to channels", icon: Bell },

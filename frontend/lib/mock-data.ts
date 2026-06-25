@@ -281,13 +281,13 @@ export const teams: Team[] = [
 
 // 7-day execution volume
 export const executionVolume = [
-  { day: "Mon", executions: 1240, success: 1190 },
-  { day: "Tue", executions: 1810, success: 1742 },
-  { day: "Wed", executions: 1520, success: 1488 },
-  { day: "Thu", executions: 2240, success: 2160 },
-  { day: "Fri", executions: 2980, success: 2901 },
-  { day: "Sat", executions: 1390, success: 1370 },
-  { day: "Sun", executions: 1120, success: 1098 },
+  { day: "Mon", executions: 1240, success: 1190, failed: 50 },
+  { day: "Tue", executions: 1810, success: 1742, failed: 68 },
+  { day: "Wed", executions: 1520, success: 1488, failed: 32 },
+  { day: "Thu", executions: 2240, success: 2160, failed: 80 },
+  { day: "Fri", executions: 2980, success: 2901, failed: 79 },
+  { day: "Sat", executions: 1390, success: 1370, failed: 20 },
+  { day: "Sun", executions: 1120, success: 1098, failed: 22 },
 ]
 
 export const statusDistribution = [
