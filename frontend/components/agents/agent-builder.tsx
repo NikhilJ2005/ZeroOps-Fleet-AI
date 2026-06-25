@@ -174,7 +174,7 @@ export function AgentBuilder({ agent }: { agent: Agent }) {
             </div>
             <div className="flex flex-col gap-2">
               <Label>Model</Label>
-              <Select value={model} onValueChange={setModel}>
+              <Select value={model} onValueChange={(v) => setModel((v as string) ?? "")}>
                 <SelectTrigger>
                   <SelectValue placeholder="Select a model" />
                 </SelectTrigger>

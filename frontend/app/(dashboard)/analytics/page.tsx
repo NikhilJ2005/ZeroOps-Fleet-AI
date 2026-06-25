@@ -21,7 +21,7 @@ export default function AnalyticsPage() {
           <h1 className="text-2xl font-semibold tracking-tight text-foreground text-balance">Analytics</h1>
           <p className="text-sm text-muted-foreground">Performance, cost, and reliability across your agent fleet.</p>
         </div>
-        <ToggleGroup type="single" defaultValue="7d" variant="outline">
+        <ToggleGroup defaultValue={["7d"]} variant="outline">
           <ToggleGroupItem value="7d">7d</ToggleGroupItem>
           <ToggleGroupItem value="30d">30d</ToggleGroupItem>
           <ToggleGroupItem value="90d">90d</ToggleGroupItem>

@@ -91,7 +91,7 @@ export function LogStream() {
       </CardHeader>
       <CardContent className="flex min-h-0 flex-1 flex-col gap-3">
         <div className="flex items-center gap-2">
-          <Select value={level} onValueChange={setLevel}>
+          <Select value={level} onValueChange={(v) => setLevel((v as string) ?? "all")}>
             <SelectTrigger className="h-9 w-32">
               <SelectValue />
             </SelectTrigger>
